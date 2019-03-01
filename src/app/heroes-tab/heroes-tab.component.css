@@ -1,0 +1,15 @@
+.fila {
+    justify-content: center;
+    padding: 40px;
+}
+
+.tab{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card  {
+    background-color: #E42026;
+    color: white;
+}

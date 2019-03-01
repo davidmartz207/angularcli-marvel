@@ -1,0 +1,11 @@
+<div class="row fila" *ngIf="heroes">
+  <div class="col-sm-3 tab" *ngFor="let hero of heroes.data.results" >
+    <div class="card">
+      <img class="card-img-top" src="{{ hero.thumbnail.path }}/landscape_xlarge.{{ hero.thumbnail.extension }}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{ hero.name }} </h5>
+        <p class="card-text"></p>
+      </div>
+    </div>
+  </div>
+</div>
